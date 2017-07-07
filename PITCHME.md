@@ -123,6 +123,8 @@ Test Coverage / overlap
 
 ---
 
+Using sinon.fakeServer
+
 ```
 this.sandbox = sinon.sandbox.create({ useFakeServer: true });
 this.sandbox.server.respondWith(
@@ -134,20 +136,22 @@ this.sandbox.server.respondWith(
     ]
 );
 
-this.sandbox.server.respond(); // when we want a response
+this.sandbox.server.respond();
 ```
 
 ---
+
+Using sinon.stub
 
 ```
 import * as getScoreboard from '../../../../src/js/streams/endpoints/scoreboard';
 
 this.scoreboardResponseBus = new bacon.Bus();
 this.sandbox
-    .stub(wordpressStream, 'default')
+    .stub(getScoreboard, 'default')
     .callsFake(() {
         return this.scoreboardResponseBus;
     });
 
-this.scoreboardResponseBus.push(scoreboardData); // when we want a response
+this.scoreboardResponseBus.push(scoreboardData);
 ```
