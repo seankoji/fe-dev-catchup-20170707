@@ -168,13 +168,15 @@ this.scoreboardResponseBus.push(scoreboardData);
 
 ---
 
-### initialLaterOr
+### initial Later Or
 
 ---
 
-1. `(initial, stream) => initial ? bacon.later(initial, 0) : stream`
-2. `(initial, getStream) => initial ? bacon.later(initial, 0) : getStream()`
-3. just roll your own
+    (initial, stream) => initial ? bacon.later(initial, 0) : stream
+
+    (initial, getStream) => initial ? bacon.later(initial, 0) : getStream()
+
+    just roll your own
 
 ---
 
