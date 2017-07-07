@@ -2,7 +2,8 @@
 
 ---
 
-Agenda
+## Agenda
+
 * Akamai training review
 * Calibrating our estimations
 * Upcoming Projects
@@ -20,7 +21,7 @@ Agenda
 
 ---
 
-## Calibrating our estimations
+## Estimates
 
 * What is a 1
 * What is a 13
@@ -116,3 +117,37 @@ DEV move to **DONE**
 
 ---
 
+#### Functional Tests
+
+Test Coverage / overlap
+
+---
+
+```
+this.sandbox = sinon.sandbox.create({ useFakeServer: true });
+this.sandbox.server.respondWith(
+    /scoreboard.json/,
+    [
+        200,
+        { 'Content-Type': 'application/json' },
+        JSON.stringify(scoreboardData)
+    ]
+);
+
+this.sandbox.server.respond(); // when we want a response
+```
+
+---
+
+```
+import * as getScoreboard from '../../../../src/js/streams/endpoints/scoreboard';
+
+this.scoreboardResponseBus = new bacon.Bus();
+this.sandbox
+    .stub(wordpressStream, 'default')
+    .callsFake(() {
+        return this.scoreboardResponseBus;
+    });
+
+this.scoreboardResponseBus.push(scoreboardData); // when we want a response
+```
