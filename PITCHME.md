@@ -168,11 +168,23 @@ this.scoreboardResponseBus.push(scoreboardData);
 
 ---
 
-### Darren 2.0
+### initialLaterOr
 
 ---
 
-Gentle reminder about hours:
+1. `(initial, stream) => initial ? bacon.later(initial, 0) : stream`
+2. `(initial, getStream) => initial ? bacon.later(initial, 0) : getStream()`
+3. just roll your own
+
+---
+
+### Darren 2.0
+Meet & greet
+Start date: 5 weeks from monday
+
+---
+
+## Gentle reminder about hours:
 * Everyone in the office: **between 10am-5pm**
 * Running late/leaving early: **let the team know**
 * If you do less hours, **make it up another day**
