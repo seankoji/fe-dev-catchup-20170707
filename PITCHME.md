@@ -165,3 +165,14 @@ this.sandbox
 
 this.scoreboardResponseBus.push(scoreboardData);
 ```
+
+---
+
+### Darren 2.0
+
+---
+
+Gentle reminder about hours:
+* Set your own hours BUT everyone should be in the office between 10-5
+* If you're running late or leaving early, let the team know
+* If you do less hours one day, make it up another day
