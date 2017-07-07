@@ -60,11 +60,11 @@ DEV move to `Peer Review` and _ping PO & UXD_
 ### PEER REVIEW
 When
     * Tests written
-    * 2x dev approvals of PR (including tests code)
+    * 2x DEV approvals of PR (including tests code)
     * PO approval of QA build
     * UXD approval of QA build (where appropriate)
 
-DEV move to `QA ready` and _ping QA_
+DEV move to **QA ready** and _ping QA_
 
 ---
 
@@ -72,22 +72,22 @@ DEV move to `QA ready` and _ping QA_
 When:
     * QA has tested feature successfully
 
-QA move to `Ready For Release`
+QA move to **Ready For Release**
 
 When:
-    * QA has found bugs & confirmed with dev
+    * QA has found bugs & confirmed with DEV
 
-QA move to `In Progress` and _ping dev_
+QA move to **In Progress** and _ping dev_
 
 ---
 
 ### Ready For Release
 When:
     * DEV has squashed PR commits
-    * DEV has merged PR to `develop` branch
+    * DEV has merged PR to **develop** branch
     * DEV has created version
 
-DEV move to `QA regression` and _ping QA with version_
+DEV move to **QA regression** and _ping QA with version_
 
 ---
 
@@ -96,7 +96,7 @@ When:
     * QA has regression tested version; OR
     * QA has determined regression testing not required for feature
 
-QA move to `Awaiting deployment` and _ping DEV_
+QA move to **Awaiting deployment** and _ping DEV_
 
 ---
 
@@ -106,4 +106,4 @@ When:
     * DEV has updated release calendar
     * DEV has sent release notes to stakeholders
 
-DEV move to `DONE`
+DEV move to **DONE**
