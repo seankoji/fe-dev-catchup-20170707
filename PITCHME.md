@@ -43,7 +43,7 @@ Agenda
 When:
     * Dev picks ticket from TODO and takes ownership
 
-DEV move to `In Progress`
+DEV move to **In Progress**
 
 ---
 
@@ -53,7 +53,7 @@ When
     * QA build created
     * PR created
 
-DEV move to `Peer Review` and _ping PO & UXD_
+DEV move to **Peer Review** and _ping PO & UXD_
 
 ---
 
