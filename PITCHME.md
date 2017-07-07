@@ -84,7 +84,7 @@ QA move to **In Progress** and _ping dev_
 ### Ready For Release
 When:
     * DEV has squashed PR commits
-    * DEV has merged PR to **develop** branch
+    * DEV has merged PR to develop branch
     * DEV has created version
 
 DEV move to **QA regression** and _ping QA with version_
@@ -93,8 +93,7 @@ DEV move to **QA regression** and _ping QA with version_
 
 ### QA Regression
 When:
-    * QA has regression tested version; OR
-    * QA has determined regression testing not required for feature
+    * QA has regression tested version
 
 QA move to **Awaiting deployment** and _ping DEV_
 
