@@ -30,12 +30,11 @@ What is a `1` ticket
 ## 1 - Trivial
 **Dev+QA Effort**: trivial
 **Unknowns**: none
-
 **Examples**:
-* Changing copy for a template which already exists
 * Updating a small amount of styles
-* Updating configuration, e.g. non code changes
-* Spike with well defined parameters, e.g. confirm that CAPI has an image variant appropriate for square images of size 400 times 400 pixels
+* Changing copy for a template which already exists
+* Updating a config file
+* Spike with well defined parameters
 
 ---
 
