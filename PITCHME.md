@@ -45,6 +45,8 @@ When:
 
 DEV move to `In Progress`
 
+---
+
 ### IN PROGRESS
 When
     * Feature complete
@@ -52,6 +54,8 @@ When
     * PR created
 
 DEV move to `Peer Review` and _ping PO & UXD_
+
+---
 
 ### PEER REVIEW
 When
@@ -61,6 +65,8 @@ When
     * UXD approval of QA build (where appropriate)
 
 DEV move to `QA ready` and _ping QA_
+
+---
 
 ### QA READY
 When:
@@ -73,6 +79,8 @@ When:
 
 QA move to `In Progress` and _ping dev_
 
+---
+
 ### Ready For Release
 When:
     * DEV has squashed PR commits
@@ -81,12 +89,16 @@ When:
 
 DEV move to `QA regression` and _ping QA with version_
 
+---
+
 ### QA Regression
 When:
     * QA has regression tested version; OR
     * QA has determined regression testing not required for feature
 
 QA move to `Awaiting deployment` and _ping DEV_
+
+---
 
 ### Awaiting Deployment
 When:
