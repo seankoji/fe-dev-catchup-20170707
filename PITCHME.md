@@ -28,9 +28,13 @@ What is a `1` ticket
 ---
 
 ## 1 - Trivial
-**Dev+QA Effort**: trivial
-**Unknowns**: none
-**Examples**:
+#### Dev+QA Effort
+trivial
+
+#### Unknowns
+none
+
+#### Examples
 * Updating a small amount of styles
 * Changing copy for a template which already exists
 * Updating a config file
