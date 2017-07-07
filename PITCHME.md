@@ -28,17 +28,13 @@ What is a `1` ticket
 ---
 
 ## 1 - Trivial
-#### Dev+QA Effort
-trivial
-
-#### Unknowns
-none
-
-#### Examples
-* Updating a small amount of styles
-* Changing copy for a template which already exists
-* Updating a config file
-* Spike with well defined parameters
+* Trivial Dev+QA Effort
+* No Unknowns
+* Examples
+    * Updating a small amount of styles
+    * Changing copy for a template which already exists
+    * Updating a config file
+    * Spike with well defined parameters
 
 ---
 
