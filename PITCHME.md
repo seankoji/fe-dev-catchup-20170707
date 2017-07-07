@@ -173,6 +173,7 @@ this.scoreboardResponseBus.push(scoreboardData);
 ---
 
 Gentle reminder about hours:
-* Set your own hours BUT everyone should be in the office between 10-5
-* If you're running late or leaving early, let the team know
-* If you do less hours one day, make it up another day
+* Everyone in the office: **between 10am-5pm**
+* Running late/leaving early: **let the team know**
+* If you do less hours, **make it up another day**
+* If you do extra hours, **do less hours another day**
