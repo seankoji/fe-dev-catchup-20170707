@@ -7,7 +7,7 @@ Agenda
 * Calibrating our estimations
 * Upcoming Projects
 * Testing handover refresher
-*
+* Functional Test / Integration Test Philosophy
 
 ---
 
@@ -35,11 +35,11 @@ Agenda
 
 ---
 
-# Development Process Refresher
+## Development Process Refresher
 
 ---
 
-### TODO
+#### TODO
 When:
     * Dev picks ticket from TODO and takes ownership
 
@@ -47,7 +47,7 @@ DEV move to **In Progress**
 
 ---
 
-### IN PROGRESS
+#### IN PROGRESS
 When
     * Feature complete
     * QA build created
@@ -57,7 +57,7 @@ DEV move to **Peer Review** and _ping PO & UXD_
 
 ---
 
-### PEER REVIEW
+#### PEER REVIEW
 When
     * Tests written
     * 2x DEV approvals of PR (including tests code)
@@ -68,7 +68,7 @@ DEV move to **QA ready** and _ping QA_
 
 ---
 
-### QA READY
+#### QA READY
 When:
     * QA has tested feature successfully
 
@@ -81,7 +81,7 @@ QA move to **In Progress** and _ping dev_
 
 ---
 
-### Ready For Release
+#### Ready For Release
 When:
     * DEV has squashed PR commits
     * DEV has merged PR to develop branch
@@ -91,7 +91,7 @@ DEV move to **QA regression** and _ping QA with version_
 
 ---
 
-### QA Regression
+#### QA Regression
 When:
     * QA has regression tested version
 
@@ -99,7 +99,7 @@ QA move to **Awaiting deployment** and _ping DEV_
 
 ---
 
-### Awaiting Deployment
+#### Awaiting Deployment
 When:
     * DEV has released version on production
     * DEV has updated release calendar
@@ -109,7 +109,10 @@ DEV move to **DONE**
 
 ---
 
-### Done
+#### Done
     * Get a ticket from TODO
     * Help others with finishing their ticket
     * Pick up a ticket from developer playground
+
+---
+
