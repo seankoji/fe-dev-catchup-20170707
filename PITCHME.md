@@ -9,6 +9,9 @@
 * Upcoming Projects
 * Testing handover refresher
 * Functional Test / Integration Test Philosophy
+* InitialLaterOr
+* Hours
+* General Feedback
 
 ---
 
@@ -191,3 +194,7 @@ Start date: 5 weeks from monday
 * Running late/leaving early: **let the team know**
 * If you do less hours, **make it up another day**
 * If you do extra hours, **do less hours another day**
+
+---
+
+# Open / feedback
